@@ -36,7 +36,7 @@ telecallerRoute(app);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const clientDirectory = path.join(__dirname, "client");
+const clientDirectory = path.join(__dirname, "../client");
 
 console.log(clientDirectory)
 
